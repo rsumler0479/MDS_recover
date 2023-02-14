@@ -12468,6 +12468,7 @@ textarea.form-control {
 }
 .subscribe-form .form-group .submit:hover {
   cursor: pointer;
+  background: #216fff;
 }
 .subscribe-form .icon {
   position: absolute;

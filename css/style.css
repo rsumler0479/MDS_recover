@@ -300,6 +300,20 @@ button::-moz-focus-inner,
   border-style: none;
 }
 
+.buttoon_color {
+  background-color: rgb(63, 63, 63);
+  color: white;
+  font-weight: bold;
+  border-color: rgb(63, 63, 63);
+  border-style: solid;
+}
+
+.buttoon_color:hover {
+  background-color: rgb(41, 115, 252);
+  border-color: rgb(41, 115, 252);
+  transition: 0.3s;
+}
+
 input[type="radio"],
 input[type="checkbox"] {
   -webkit-box-sizing: border-box;
@@ -6819,9 +6833,12 @@ a.close.disabled {
 
 a.bg-primary:hover,
 a.bg-primary:focus,
-button.bg-primary:hover,
 button.bg-primary:focus {
   background-color: #0062cc !important;
+}
+
+button.bg-primary:hover {
+  background-color: #024388;
 }
 
 .bg-secondary {
@@ -8381,6 +8398,13 @@ button.bg-dark:focus {
 
 .cool-back {
   background-color: #15b3fc6c;
+  padding-left: 10px;
+  padding-bottom: 20px;
+  padding-right: -10px;
+}
+
+.cool-back2 {
+  background-color: #0970f7b0;
   padding-left: 15px;
   padding-bottom: 20px;
   padding-right: 1px;
