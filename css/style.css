@@ -8369,6 +8369,23 @@ button.bg-dark:focus {
   text-transform: uppercase;
 }
 
+.btn.btn-blue {
+  color: white;
+  background: #005ce6;
+}
+
+.btn.btn-blue:hover {
+  background: #328ff3;
+  transition: 0.8s;
+}
+
+.cool-back {
+  background-color: #15b3fc6c;
+  padding-left: 15px;
+  padding-bottom: 20px;
+  padding-right: 1px;
+}
+
 .mb-0,
 .my-0 {
   margin-bottom: 0 !important;

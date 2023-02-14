@@ -6880,7 +6880,7 @@ button.bg-danger:focus {
 }
 
 .bg-light {
-  background-color: #f8f9fa !important;
+  background-color: #ffffff00 !important;
 }
 
 a.bg-light:hover,
@@ -11253,6 +11253,11 @@ h5,
   background: #1c99ff;
   color: #fff;
 }
+
+.btn.btn-blue {
+  background: #007bff;
+}
+
 .btn.btn-white {
   background: #fff;
   border: 1px solid #fff;
